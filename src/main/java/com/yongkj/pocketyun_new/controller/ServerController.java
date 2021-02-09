@@ -35,11 +35,11 @@ public class ServerController extends BasicController {
 		json.put("message", "插入成功！");
 		
 		String serverUUID = this.getUUID();
-		String accessKeyId = "LTAI4G2sEV5Ntxyaz1DAFSLN";
-		String secretAccessKey = "GE2E1bdrnGskAzE9FYIoeXpLr0Z72I";
-		String endPiont = "http://oss-cn-shenzhen.aliyuncs.com";
-		String endPiontInternal = "http://oss-cn-shenzhen-internal.aliyuncs.com";
-		String bucketName = "pocketyun";
+		String accessKeyId = "";
+		String secretAccessKey = "";
+		String endPiont = "";
+		String endPiontInternal = "";
+		String bucketName = "";
 		
 		ServerDto serverDto = new ServerDto();
 		serverDto.setServerUUID(serverUUID);
